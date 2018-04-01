@@ -41,7 +41,7 @@
             <div class="input-group">
                 <input type="text" placeholder="Entrer votre message" name="shoutbox-message" class="shoutbox-message-input form-control">
                 <span class="input-group-btn">
-                    <button class="shoutbox-message-send-btn button" type="button">Envoyer</button>
+                    <button class="shoutbox-message-send-btn" type="button">Envoyer</button>
                 </span>
             </div>
 
