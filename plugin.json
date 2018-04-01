@@ -1,6 +1,6 @@
 {
   "id": "nodebb-plugin-shoutbox-cabane-libre",
-  "name": "Shoutbox for Cabane Libre",
+  "name": "Shoutbox",
   "description": "NodeBB Plugin Shoutbox",
   "url": "https://github.com/TheWorms/nodebb-plugin-shoutbox-cabane-libre",
   "library": "./library.js",
