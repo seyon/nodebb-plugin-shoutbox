@@ -1,5 +1,5 @@
 /* Dimensions */
-@border-size: 2px;
+@border-size: 1px;
 @avatar-size: 30px;
 @avatar-image-size: @avatar-size - (2 * @border-size);
 @chain-margin: 10px;
@@ -24,26 +24,26 @@
   .img-circle();
   position: absolute;
   left: 0;
-  border: 2px solid @status-offline;
+  border: 1px solid @status-offline;
 
   margin-top: @chain-margin;
   margin-left: 10px;
   margin-right: 10px;
 
   &.online {
-    border: 2px solid @status-online;
+    border: 1px solid @status-online;
   }
 
   &.away {
-    border: 2px solid @status-away;
+    border: 1px solid @status-away;
   }
 
   &.dnd {
-    border: 2px solid @status-dnd;
+    border: 1px solid @status-dnd;
   }
 
   &.offline {
-    border: 2px solid @status-offline;
+    border: 1px solid @status-offline;
   }
 
   .shoutbox-avatar-image {
@@ -89,8 +89,7 @@
   margin-top: @chain-margin;
   margin-left: @avatar-size + 5px;
   margin-bottom: 3px;
-  font-size: @font-size-base;
-  line-height: @font-size-base;
+  font-size: 9px;
 
   .shoutbox-shout-timestamp {
     .shoutbox-opacity-transition;
@@ -105,8 +104,7 @@
   display: flex;
   margin-left: @avatar-size + 5px;
   margin-bottom: 3px;
-  font-size: @font-size-base;
-  line-height: @font-size-base;
+  font-size: 9px;
 
   .shoutbox-shout-text {
     //flex-grow: 1;
@@ -118,8 +116,8 @@
 
   .shoutbox-shout-edited p:after {
     content: "\f040";
-    font: normal normal normal 14px/1 FontAwesome;
-    font-size: 10px;
+    font: normal normal normal 12px/1 FontAwesome;
+    font-size: 9px;
     text-rendering: auto;
     color: @text-muted;
     margin-left: 5px;
@@ -152,7 +150,7 @@
   }
 
   &-content, &-archive-content {
-    height: 200px;
+    height: 180px;
     overflow-y: scroll;
     padding-top: 0;
     position: relative;
@@ -167,7 +165,7 @@
   }
 
   & .shoutbox-message-send-btn {
-    margin: 2px 0;
+    margin: 5px;
     width: auto;
     vertical-align: middle;
     border: 1px solid #999999;
