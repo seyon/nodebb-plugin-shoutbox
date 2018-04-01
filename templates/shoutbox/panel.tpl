@@ -2,7 +2,7 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <h3 class="panel-title">
-                <a href="/shoutbox" title="Shoutbox">Shoutbox</a>
+                <a href="/shoutbox" title="Shoutbox">Les Champs</a>
             </h3>
 
             <div class="btn-group pull-right">
@@ -39,9 +39,9 @@
             </div>
 
             <div class="input-group">
-                <input type="text" placeholder="enter message" name="shoutbox-message" class="shoutbox-message-input form-control">
+                <input type="text" placeholder="Entrer votre message" name="shoutbox-message" class="shoutbox-message-input form-control">
                 <span class="input-group-btn">
-                    <button class="shoutbox-message-send-btn btn btn-primary" type="button">Send</button>
+                    <button class="shoutbox-message-send-btn button" type="button">Envoyer</button>
                 </span>
             </div>
 
