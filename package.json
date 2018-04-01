@@ -1,5 +1,5 @@
 {
-  "name": "nodebb-plugin-shoutbox",
+  "name": "nodebb-plugin-shoutbox-cabane-libre",
   "version": "0.3.4",
   "description": "NodeBB Shoutbox Plugin",
   "main": "library.js",
@@ -8,7 +8,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/Schamper/nodebb-plugin-shoutbox"
+    "url": "https://github.com/TheWorms/nodebb-plugin-shoutbox-cabane-libre"
   },
   "keywords": [
     "nodebb",
@@ -18,8 +18,15 @@
   "author": "Schamper <mrwafflewaffle@aim.com>",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/Schamper/nodebb-plugin-shoutbox/issues"
+    "url": "https://github.com/Schamper"
   },
+  "contributors": [
+    {
+      "name": "The Worm's",
+      "email": "theworms@theworms.fr",
+      "url": "https://github.com/TheWorms"
+    }
+  ],  
   "dependencies": {
     "async": "~1.5.2",
     "string": "~3.3.1"

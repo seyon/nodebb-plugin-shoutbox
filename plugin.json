@@ -1,8 +1,8 @@
 {
-  "id": "nodebb-plugin-shoutbox",
-  "name": "Shoutbox",
+  "id": "nodebb-plugin-shoutbox-cabane-libre",
+  "name": "Shoutbox for Cabane Libre",
   "description": "NodeBB Plugin Shoutbox",
-  "url": "https://github.com/Schamper/nodebb-plugin-shoutbox",
+  "url": "https://github.com/TheWorms/nodebb-plugin-shoutbox-cabane-libre",
   "library": "./library.js",
   "hooks": [
     { "hook": "static:app.load", "method": "init.load" },
