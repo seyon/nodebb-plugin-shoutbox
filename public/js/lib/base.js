@@ -216,8 +216,8 @@
 			scrollBreakpoint: 50,
 			messages: {
 				alert: '[ %u ] - new shout!',
-				empty: 'The shoutbox is empty, start shouting!',
-				scrolled: '<a href="#" id="shoutbox-content-overlay-scrolldown">Scroll down</a>'
+				empty: 'Les champs sont vides, commencez à semer !',
+				scrolled: '<a href="#" id="shoutbox-content-overlay-scrolldown">Descendre dans le champs</a>'
 			},
 			userCheck: 0
 		};

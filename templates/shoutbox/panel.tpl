@@ -12,7 +12,7 @@
                 <ul class="shoutbox-settings-menu dropdown-menu">
                     <li>
                         <a data-shoutbox-setting="toggles.sound" href="#">
-                            <span class="fa fa-check"></span> Sound
+                            <span class="fa fa-check"></span> Son
                         </a>
                     </li>
                     <li>
@@ -22,7 +22,7 @@
                     </li>
                     <li>
                         <a data-shoutbox-setting="toggles.hide" href="#">
-                            <span class="fa fa-check"></span> Hide
+                            <span class="fa fa-check"></span> Cacher
                         </a>
                     </li>
                 </ul>
@@ -39,7 +39,7 @@
             </div>
 
             <div class="input-group">
-                <input type="text" placeholder="Entrer votre message" name="shoutbox-message" class="shoutbox-message-input form-control">
+                <input type="text" placeholder="Semer votre prose" name="shoutbox-message" class="shoutbox-message-input form-control">
                 <span class="input-group-btn">
                     <button class="shoutbox-message-send-btn" type="button">Envoyer</button>
                 </span>
