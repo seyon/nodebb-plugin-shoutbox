@@ -105,7 +105,7 @@
   display: flex;
   margin-left: @avatar-size + 5px;
   margin-bottom: 3px;
-  font-size: 9px;
+  font-size: 12px;
 
   .shoutbox-shout-text {
     //flex-grow: 1;
@@ -152,7 +152,7 @@
   }
 
   &-content, &-archive-content {
-    height: 180px;
+    height: 680px;
     overflow-y: scroll;
     padding-top: 0;
     position: relative;
@@ -172,6 +172,16 @@
     vertical-align: middle;
     border: 1px solid #999999;
     font-size: 11px;
+    padding: 11px;
+    margin-top: 0px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    border: 1px solid #f6f9fd;
+    border-radius: 7px;
+    color: #000;
+    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#d4e8ff));
+    background-image: linear-gradient(#fff,#d4e8ff);
+}    
   }
 
   &-archive-content {
