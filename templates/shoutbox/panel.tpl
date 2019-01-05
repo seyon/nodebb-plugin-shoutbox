@@ -1,8 +1,8 @@
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title">
-                <a data-shoutbox-setting="toggles.hide" href="#" title="Shoutbox">Les Champs</a>
+            <h3>
+                <a href="#" title="Shoutbox">Les Champs</a>
             </h3>
 
             <div class="btn-group pull-right">
@@ -18,6 +18,11 @@
                     <li>
                         <a data-shoutbox-setting="toggles.notification" href="#">
                             <span class="fa fa-check"></span> Notification
+                        </a>
+                    </li>
+                    <li>
+                        <a data-shoutbox-setting="toggles.hide" href="#">
+                            <span class="fa fa-check"></span> Cacher
                         </a>
                     </li>
                 </ul>
