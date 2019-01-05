@@ -1,34 +1,11 @@
-<div class="col-lg-12">
-  <h1 class="categories-title">Les Champs</h1>
-</div>
+<h1 class="categories-title">Les Champs</h1>
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3 class="panel-title">
-                <a href="/shoutbox" title="Shoutbox">Les Champs</a>
-            </h3>
-
             <div class="btn-group pull-right">
-                <a href="#" class="shoutbox-button-settings dropdown-toggle" data-toggle="dropdown">
-                    <span class="fa fa-wrench"></span>
+                <a data-shoutbox-setting="toggles.hide" href="#">
+                    <span class="fa fa-check"></span> Cacher
                 </a>
-                <ul class="shoutbox-settings-menu dropdown-menu">
-                    <li>
-                        <a data-shoutbox-setting="toggles.sound" href="#">
-                            <span class="fa fa-check"></span> Son
-                        </a>
-                    </li>
-                    <li>
-                        <a data-shoutbox-setting="toggles.notification" href="#">
-                            <span class="fa fa-check"></span> Notification
-                        </a>
-                    </li>
-                    <li>
-                        <a data-shoutbox-setting="toggles.hide" href="#">
-                            <span class="fa fa-check"></span> Cacher
-                        </a>
-                    </li>
-                </ul>
             </div>
         </div>
 
