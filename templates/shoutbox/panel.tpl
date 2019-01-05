@@ -3,9 +3,26 @@
     <div class="panel panel-default">
         <div class="panel-heading">
             <div class="btn-group pull-right">
-                <a data-shoutbox-setting="toggles.hide" href="#">
-                    <span class="fa fa-check"></span> Cacher
+                <a href="#" class="shoutbox-button-settings dropdown-toggle" data-toggle="dropdown">
+                    <span class="fa fa-wrench"></span>
                 </a>
+                <ul class="shoutbox-settings-menu dropdown-menu">
+                    <li>
+                        <a data-shoutbox-setting="toggles.sound" href="#">
+                            <span class="fa fa-check"></span> Son
+                        </a>
+                    </li>
+                    <li>
+                        <a data-shoutbox-setting="toggles.notification" href="#">
+                            <span class="fa fa-check"></span> Notification
+                        </a>
+                    </li>
+                    <li>
+                        <a data-shoutbox-setting="toggles.hide" href="#">
+                            <span class="fa fa-check"></span> Cacher
+                        </a>
+                    </li>
+                </ul>
             </div>
         </div>
 
