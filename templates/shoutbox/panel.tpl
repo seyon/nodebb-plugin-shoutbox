@@ -1,3 +1,6 @@
+<div class="col-lg-12">
+  <h1 class="categories-title">Les Champs</h1>
+</div>
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
         <div class="panel-heading">
