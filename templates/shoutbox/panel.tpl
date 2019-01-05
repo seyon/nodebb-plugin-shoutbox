@@ -1,8 +1,8 @@
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <h3>
-                <a href="#" title="Shoutbox">Les Champs</a>
+            <h3 class="panel-title">
+                <a href="/shoutbox" title="Shoutbox">Les Champs</a>
             </h3>
 
             <div class="btn-group pull-right">
