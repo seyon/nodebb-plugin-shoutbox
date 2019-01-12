@@ -1,7 +1,7 @@
 <h1 class="categories-title">Les Champs</h1>
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
-        <div class="panel-heading">
+        <div class="panel-heading#">
             <!--
             <h3 class="panel-title">
                 <a href="/shoutbox" title="Shoutbox">Shoutbox</a>
