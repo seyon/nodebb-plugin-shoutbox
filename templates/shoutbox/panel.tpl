@@ -1,9 +1,15 @@
 <h1 class="categories-title">Les Champs</h1>
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
+        <div class="panel-heading">
+            <!--
+            <h3 class="panel-title">
+                <a href="/shoutbox" title="Shoutbox">Shoutbox</a>
+            </h3>
+            -->
             <div class="btn-group pull-right">
                 <a href="#" class="shoutbox-button-settings dropdown-toggle" data-toggle="dropdown">
-                    <span class="fa fa-wrench"></span>
+                    <span class="fa fa-cogs"></span>
                 </a>
                 <ul class="shoutbox-settings-menu dropdown-menu">
                     <li>
@@ -22,12 +28,13 @@
                         </a>
                     </li>
                 </ul>
+            </div>
         </div>
 
         <div class="panel-body" style="{hiddenStyle}">
             <div class="shoutbox-content-container">
                 <div class="shoutbox-content-overlay">
-                    <a href="#" class="shoutbox-content-overlay-close fa fa-cogs"></a>
+                    <a href="#" class="shoutbox-content-overlay-close fa fa-times"></a>
                     <span class="shoutbox-content-overlay-message"></span>
                 </div>
                 <div class="shoutbox-content well well-sm"></div>
