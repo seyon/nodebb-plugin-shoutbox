@@ -12,15 +12,16 @@
 
 .well {
     background-color: #fff;
-    border: 1px solid #f6f9fd;
+    border: 1px solid #e3e3e3;
     border-radius: 1px;
 }
-.panel-default {
+.panel-default, .panel.panel-default {
   -webkit-border-radius:7px;
   border-radius:7px;
   border:none;
   min-height: 36px;
 }
+
 .shoutbox-opacity-transition {
   opacity: 0;
   transition: opacity 0.3s, visibility 0s linear 0.3s;
@@ -173,7 +174,7 @@
     & p {
       margin: 0;
     }
-  }
+  }  
 
   & .shoutbox-message-buttons {
     margin-top: 5px;
@@ -235,4 +236,19 @@
       }
     }
   }
+}
+
+.panel-body {
+    padding: 5px;
+}
+.recent-cards-plugin.preventSlideOut {
+    padding-top: 5px;
+}
+.panel-heading {
+    padding: 0px;
+    border-bottom: 1px solid transparent;
+}
+.panel-default > .panel-heading {
+    background-color: none;
+    border-color: transparent;
 }
