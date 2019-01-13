@@ -1,7 +1,7 @@
 <h1 class="categories-title">Les Champs</h1>
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
-        <div class="panel-heading#">
+        <div class="panel-heading">
             <!--
             <h3 class="panel-title">
                 <a href="/shoutbox" title="Shoutbox">Shoutbox</a>
@@ -41,7 +41,7 @@
             </div>
 
             <div class="input-group">
-                <input type="text" placeholder="Semer votre prose" name="shoutbox-message" class="shoutbox-message-input form-control">
+                <input type="text" placeholder="Semez votre prose" name="shoutbox-message" class="shoutbox-message-input form-control">
                 <span class="input-group-btn">
                     <button class="shoutbox-message-send-btn" type="button">Envoyer</button>
                 </span>
