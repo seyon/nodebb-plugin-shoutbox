@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-shoutbox-cabane-libre",
-  "version": "0.3.14",
+  "version": "0.3.15",
   "description": "NodeBB Shoutbox Plugin",
   "main": "library.js",
   "scripts": {
