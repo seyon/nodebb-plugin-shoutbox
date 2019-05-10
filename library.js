@@ -76,12 +76,8 @@ Shoutbox.widget.define = function(widgets, callback) {
 };
 
 Shoutbox.widget.render = function(widget, callback) {
-	//Remove any container
-	widget.data.container = '';
-
 	Config.user.get({ uid: widget.uid, settings: {} }, function(err, result) {
 		Config.getTemplateData(function(data) {
-
 			data.hiddenStyle = '';
 			if (!err && result && result.settings && parseInt(result.settings['shoutbox:toggles:hide'], 10) == 1) {
 				data.hiddenStyle = 'display: none;';

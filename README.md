@@ -4,4 +4,4 @@ This is a NodeBB plugin that will add a shoutbox to your homepage. It's still a 
 
 ## Installation
 
-    npm install nodebb-plugin-shoutbox-cabane-libre
+    npm install nodebb-plugin-shoutbox-seyon

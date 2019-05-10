@@ -107,9 +107,9 @@
 
 				sbInstance.sockets.removeShout({ sid: sid }, function (err, result) {
 					if (result === true) {
-						app.alertSuccess('Successfully deleted shout!');
+						app.alertSuccess('Nachricht erfolgreich gelöscht');
 					} else if (err) {
-						app.alertError('Error deleting shout: ' + err.message, 3000);
+						app.alertError('Fehler beim Löschen der Nachricht: ' + err.message, 3000);
 					}
 				});
 
@@ -197,9 +197,9 @@
 
 					sbInstance.sockets.editShout({ sid: sid, edited: msg }, function (err, result) {
 						if (result === true) {
-							app.alertSuccess('Successfully edited shout!');
+							app.alertSuccess('Nachricht erfolgreich editiert!');
 						} else if (err) {
-							app.alertError('Error editing shout: ' + err.message, 3000);
+							app.alertError('Fehler beim Editieren der Nachricht: ' + err.message, 3000);
 						}
 						self.finish();
 					});

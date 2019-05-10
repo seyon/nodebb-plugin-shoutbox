@@ -215,9 +215,9 @@
 			lastSid: -1,
 			scrollBreakpoint: 50,
 			messages: {
-				alert: '[ %u ] - new shout!',
-				empty: 'Les champs sont vides, commencez à semer !',
-				scrolled: '<a href="#" id="shoutbox-content-overlay-scrolldown">Descendre dans le champs</a>'
+				alert: '[ %u ] - neue Shoutbox - Nachricht!',
+				empty: 'Es gibt keine Nachrichten',
+				scrolled: '<a href="#" id="shoutbox-content-overlay-scrolldown">zur letzten Nachricht scrollen</a>'
 			},
 			userCheck: 0
 		};

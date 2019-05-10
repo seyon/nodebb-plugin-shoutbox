@@ -94,7 +94,7 @@
 
 .shoutbox-user {
   margin-top: @chain-margin;
-  margin-left: @avatar-size + 5px;
+  margin-left: @avatar-size + 15px;
   margin-bottom: 3px;
   font-size: 9px;
 
@@ -109,7 +109,7 @@
 
 .shoutbox-shout {
   display: flex;
-  margin-left: @avatar-size + 5px;
+  margin-left: @avatar-size + 15px;
   margin-bottom: 3px;
   font-size: 12px;
 
@@ -180,27 +180,23 @@
     margin-top: 5px;
   }
 
-  & .shoutbox-message-send-btn {
-    margin: 5px;
-    width: auto;
-    vertical-align: middle;
-    border: 1px solid #999999;
-    font-size: 11px;
-    padding: 11px;
-    margin-top: 0px;
-    border: 1px solid #f6f9fd;
-    border-radius: 7px;
-    color: #000;
-    background-image: -webkit-gradient(linear,left top,left bottom,from(#fff),to(#d4e8ff));
-    background-image:linear-gradient(#fff, #d4e8ff);  
-  }
-
   &-archive-content {
     height: 680px;
   }
 
   & .shoutbox-button-settings {
-    color: inherit;
+    padding: 5px;
+    top: -10px;
+    position: relative;
+    left: 5px;
+    .fa {
+      color: #000000;
+    }
+  }
+
+  & .shoutbox-settings-menu {
+    top: 35px;
+    right: 35px;
   }
 
   &-settings-menu span {
@@ -235,6 +231,18 @@
         float: right;
       }
     }
+
+    .shoutbox-content {
+      width: 100%;
+    }
+  }
+
+  .shoutbox-message-input {
+    margin-top: 15px;
+  }
+
+  .shoutbox-message-send-btn {
+    margin-top: 15px;
   }
 }
 
