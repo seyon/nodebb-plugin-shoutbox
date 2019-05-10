@@ -9,8 +9,8 @@
                 <div id="shoutbox-archive-content" class="well well-sm"></div>
             </div>
             <div class="modal-footer">
-                <button id="shoutbox-button-archive-prev" type="button" class="btn btn-default pull-left">&larr; Précédentes</button>
-                <button id="shoutbox-button-archive-next" type="button" class="btn btn-default pull-right">Suivantes &rarr;</button>
+                <button id="shoutbox-button-archive-prev" type="button" class="btn btn-default pull-left">&larr; </button>
+                <button id="shoutbox-button-archive-next" type="button" class="btn btn-default pull-right"> &rarr;</button>
             </div>
         </div>
     </div>

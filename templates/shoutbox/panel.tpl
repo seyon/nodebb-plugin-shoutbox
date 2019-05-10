@@ -1,12 +1,9 @@
-<h1 class="categories-title">Les Champs</h1>
 <div class="shoutbox" id="shoutbox-main">
     <div class="panel panel-default">
         <div class="panel-heading">
-            <!--
             <h3 class="panel-title">
                 <a href="/shoutbox" title="Shoutbox">Shoutbox</a>
             </h3>
-            -->
             <div class="btn-group pull-right">
                 <a href="#" class="shoutbox-button-settings dropdown-toggle" data-toggle="dropdown">
                     <span class="fa fa-cogs"></span>
@@ -14,17 +11,17 @@
                 <ul class="shoutbox-settings-menu dropdown-menu">
                     <li>
                         <a data-shoutbox-setting="toggles.sound" href="#">
-                            <span class="fa fa-check"></span> Son
+                            <span class="fa fa-check"></span> Sound
                         </a>
                     </li>
                     <li>
                         <a data-shoutbox-setting="toggles.notification" href="#">
-                            <span class="fa fa-check"></span> Notification
+                            <span class="fa fa-check"></span> Benachrichtigungen
                         </a>
                     </li>
                     <li>
                         <a data-shoutbox-setting="toggles.hide" href="#">
-                            <span class="fa fa-check"></span> Cacher
+                            <span class="fa fa-check"></span> ausblenden
                         </a>
                     </li>
                 </ul>
@@ -41,9 +38,9 @@
             </div>
 
             <div class="input-group">
-                <input type="text" placeholder="Semez votre prose" name="shoutbox-message" class="shoutbox-message-input form-control">
+                <input type="text" name="shoutbox-message" class="shoutbox-message-input form-control">
                 <span class="input-group-btn">
-                    <button class="shoutbox-message-send-btn" type="button">Envoyer</button>
+                    <button class="btn btn-primary" type="button">schreiben</button>
                 </span>
             </div>
 
